@@ -1,6 +1,6 @@
 # JAVA-FACE-DETECTION-AND-SKETCH-CODE-USING-OPENCV
 
-# 3rd SEM JAVA MINI PROJECT.
+
 
 Usually most of the computer vision projects are made using open cv and python but in this project we have used opencv and python. 
 
