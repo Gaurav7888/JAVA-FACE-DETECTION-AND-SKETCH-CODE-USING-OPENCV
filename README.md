@@ -1,10 +1,13 @@
-# JAVA-FACE-DETECTION-AND-SKETCH-CODE-USING-OPENCV
+# JAVA FACE DETECTION AND SKETCH CODE USING OPENCV
 
 
+OpenCV is a library of programming functions mainly aimed at real-time computer vision. In this project we will use java instead of python which is otherwise conventionally used with OpenCV 
 
-Usually most of the computer vision projects are made using open cv and python but in this project we have used opencv and java. 
+The project is divided into two parts:
+    - First part is to convert normal images to sketch images.
+    - Second part is to detect multiple faces. 
 
-In this project we have 2 parts, 
-First part is to convert normal images to sketch images.
+## Requirements
 
-Second part is to detect multiple faces. 
+- OpenCV.
+- Java(any latest vesion will be fine).
