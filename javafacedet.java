@@ -49,24 +49,6 @@ public class javafacedet {
 		Mat destination4 = new Mat();
 		Core.bitwise_not(destination3, destination4 );
 		Imgcodecs.imwrite("images/final.jpg", destination4);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
