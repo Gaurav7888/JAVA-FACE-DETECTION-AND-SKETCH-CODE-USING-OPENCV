@@ -14,8 +14,8 @@ import org.opencv.objdetect.CascadeClassifier;
 public class javafacedet {
 	public static void main(String[] args) {
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-		System.out.println("hello hi");
-		
+		System.out.println("Namaste");
+		System.out.println("Welcome to Face Detector");
 		String image="images/31.jpg";
 		Mat src= Imgcodecs.imread(image);
 		String xmlfile="xml/lbpcascade_frontalface.xml";
@@ -30,7 +30,7 @@ public class javafacedet {
 		}
 		
 		Imgcodecs.imwrite("images/saved.jpg",src);
-		System.out.println("work done");
+		System.out.println("Work Done");
 		
 		//sketching app backend code
 		
@@ -49,24 +49,6 @@ public class javafacedet {
 		Mat destination4 = new Mat();
 		Core.bitwise_not(destination3, destination4 );
 		Imgcodecs.imwrite("images/final.jpg", destination4);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
